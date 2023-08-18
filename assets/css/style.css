@@ -1,0 +1,112 @@
+body,h1,h2,h3,h4{
+	background-color: #010e1b;
+	color:#fff;	
+	font-family: "Poppins", sans-serif;
+}
+
+.container{
+	display: flex;
+  	align-items: center;
+	height: auto;
+	margin: 0px auto;
+}
+
+.middle{
+	align-items: left;
+  	padding: 7%;
+	font-size: 27px;
+}
+
+
+li{
+	list-style: none;
+}
+
+li a{
+	text-decoration: none;
+	color: azure;
+}
+
+li a:hover{
+	color: azure;
+	text-decoration: none;
+	box-shadow: 0px 3px #ff7139;
+	transition: 0.3s ease-out;
+}
+
+
+/* DEMO-SPECIFIC STYLES */
+
+.nav li{
+	display: inline;
+	font-size: 24px;
+	padding: 0px 10px 0px 0px;
+}
+
+.nav li a{
+	color: white;
+}
+
+.nav li a:hover{
+	text-decoration: none;
+	color: #ff7139;
+	box-shadow: 0px 3px #ff7139;
+	transition: 0.3s ease-out;
+}
+
+.cta a{
+	background-color: #010e1b;
+	color: #fff;
+	border: 2px solid #ff7139;
+	padding: 8px 18px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: -10px;
+	display: inline-block;
+}
+
+.cta a:hover{
+	background-color: #ff7139;
+	color: #010e1b;
+	border: 2px solid #fff;
+	padding: 8px 18px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	transition: 0.5s ease-out;
+}
+
+
+.typing h5 {
+	width: 30ch;
+	margin-top: -30px;
+	color: #ff7139;
+	animation: typing 2.3s steps(30), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+	font-family: monospace;
+  }
+  
+  @keyframes typing {
+	from {
+	  width: 0
+	}
+  }
+	  
+  @keyframes blink {
+	50% {
+	  border-color: transparent
+	}
+  }
+
+.footer{
+	font-family: monospace;
+	font-size: 1.5em;
+	padding: 4px;
+	display: flex;
+	justify-content: center;
+	height: auto;
+	text-decoration: none;
+}
+
